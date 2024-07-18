@@ -12,6 +12,11 @@ body{
     margin: 10px 100px;
 }
 
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
 .navbar{
     margin: auto;
     padding: 35px 0;
@@ -36,10 +41,6 @@ body{
     color: black;
 }
 
-.element{
-    margin-top: 50px;
-}
-
 .para1{
     display: flex;
     line-height: 30px;
@@ -54,13 +55,20 @@ body{
     margin-top: 10px;
 }
 
-.para p, h1{
-    width: 50%;
+.para p{
+    font-size: 0.9em;
+    margin-top: 10px;
+    width: 75%;
+}
+
+.para h1{
+    width: 70%;
+    line-height: 40px;
 }
 
 .para button{
     padding: 10px;
-    width: 25%;
+    width: 35%;
     color: white;
     background-color: rgb(67, 117, 232);
     border: none;
@@ -146,7 +154,8 @@ body{
 }
 
 .img-content h2{
-    width: 40%;
+    width: 50%;
+    line-height: 35px;
 }
 
 .img-content p{
@@ -171,12 +180,12 @@ body{
 }
 
 .img-content2 p{
-    width: 150%;
+    width: 270%;
     margin-top: 20px;
 }
 
 .img-content2 h2{
-    width: 80%;
+    width: 140%;
 }
 
 .third-img2{
@@ -184,7 +193,7 @@ body{
 }
 
 #download{
-    width: 70%;
+    width: 100%;
     margin-top: 15px;
 }
 
@@ -193,13 +202,13 @@ body{
     color: white;
     padding: 100px 150px;
     border-radius: 30px;
-    margin: 50px 100px;
+    margin: 100px;
 }
 
 .page3 .customer{
     text-align: center;
     font-size: 2.5em;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .paragraph1{
@@ -233,14 +242,14 @@ body{
 }
 
 .patient{
-    width: 32%;
+    width: 38%;
     line-height: 30px;
     margin: 0;
-    padding: 0 110px;
+    padding: 0 50px;
 }
 
 .arrow{
-    padding: 0 600px;
+    padding: 0 500px;
 }
 
 .articles{
